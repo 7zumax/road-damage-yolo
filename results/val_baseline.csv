@@ -1,0 +1,4 @@
+model,train_minutes,precision,recall,mAP50,mAP50-95
+baseline_yolov8s,44.2,0.5701,0.4812,0.4928,0.2841
+baseline_yolov10s,48.1,0.5515,0.511,0.5022,0.2928
+baseline_yolo11s,37.5,0.5726,0.51,0.5179,0.2998

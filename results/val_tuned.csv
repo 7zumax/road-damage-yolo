@@ -1,0 +1,4 @@
+model,train_minutes,precision,recall,mAP50,mAP50-95,note
+tuned_yolov8s,38.3,0.5929,0.5048,0.5048,0.288,defaults won the search (retrained with default settings)
+tuned_yolov10s,0.0,0.5515,0.511,0.5022,0.2928,defaults won the search (baseline weights reused)
+tuned_yolo11s,36.5,0.5479,0.4935,0.492,0.2877,trial 2 won (dfl/hsv_v/cutmix/weight_decay changed)

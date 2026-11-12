@@ -1,0 +1,6 @@
+model,alligator,block,crack,longitudinal,pothole,transverse
+baseline_yolov8s,0.336,0.845,0.797,0.243,0.708,0.625
+tuned_yolov8s,0.338,0.865,0.837,0.23,0.698,0.586
+baseline_yolov10s,0.344,0.819,0.873,0.256,0.707,0.627
+baseline_yolo11s,0.359,0.838,0.832,0.266,0.705,0.622
+tuned_yolo11s,0.338,0.858,0.838,0.274,0.673,0.587

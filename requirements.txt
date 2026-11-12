@@ -1,0 +1,12 @@
+# Install PyTorch with CUDA first (pick the command for your GPU at https://pytorch.org), e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+ultralytics>=8.3
+fastapi
+uvicorn
+python-multipart
+opencv-python
+numpy
+pyyaml
+onnx
+onnxruntime
+httpx          # only for app/test_app.py
