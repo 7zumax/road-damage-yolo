@@ -109,7 +109,7 @@ const $=id=>document.getElementById(id);
 const conf=$("conf"); conf.oninput=()=>$("cv").textContent=conf.value;
 function show(d){
   $("view").src=d.image; $("n").textContent=d.count; $("ms").textContent=d.inference_ms+" ms";
-  $("summary").textContent=Object.entries(d.counts).map(([k,v])=>k+": "+v).join("  ·  ");
+  $("summary").textContent=Object.entries(d.counts).map(([k,v])=>k+": "+v).join("  |  ");
   $("rows").innerHTML=d.detections.map((x,i)=>`<tr><td>${i+1}</td><td>${x.class}</td><td>${(x.confidence*100).toFixed(1)}%</td><td>${x.box.join(", ")}</td></tr>`).join("");
 }
 async function send(blob){
